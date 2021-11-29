@@ -10,9 +10,6 @@ class Player extends Component {
         this.props.dispatch(action)
     }
     render() {
-        // console.log(this.props);
-
-        // console.log(choosing);
         return (
             <div className="col-3">
                 <div style={{

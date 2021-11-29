@@ -11,7 +11,7 @@ class KetQuaTroChoi extends Component {
     render() {
         return (
             <div className="ketQua">
-                <h2 className="text-warning text">I'm Iron Man, i love you 3000</h2>
+                <h2 className="text-warning text">I'm Iron Man !!!</h2>
                 <h2 className="text-success text">Số Bàn Thắng: {this.props.ketQua.soBanThang}</h2>
                 <h2 className="text-success text">Số Bàn Chơi: {this.props.ketQua.soBanChoi}</h2>
                 <button className="btn btn-success p-3" style={{ fontSize: 40 }}
